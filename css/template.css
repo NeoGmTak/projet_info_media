@@ -1,0 +1,39 @@
+/* ---- Déclaration des polices ---- */
+/* Luhier */
+@font-face {
+    font-family: "Luthier";
+    src: url("/font/Luthier-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Luthier Bold";
+    src: url("/font/Luthier-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Luthier Bold Italic";
+    src: url("/font/Luthier-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Luthier Italic";
+    src: url("/font/Luthier-Italic.ttf") format("truetype");
+}
+
+/* San Francisco */
+@font-face {
+    font-family: "San Francisco";
+    src: url("/font/SanFranciscoDisplay-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "San Francisco Light";
+    src: url("/font/SanFranciscoDisplay-Light.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "San Francisco Bold";
+    src: url("/font/SanFranciscoDisplay-Bold.otf") format("truetype");
+}
+
+/* MENU HTML */
