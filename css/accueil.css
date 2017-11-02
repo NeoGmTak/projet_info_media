@@ -1,0 +1,275 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Luthier";
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ---- -------------------- ---- */
+/* ---- ---- Page Header ---- ---- */
+/* ---- -------------------- ---- */
+header.accueil {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-image: url("../images/background_slide1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.accueil .jumbotron {
+    display: flex;
+    justify-content: center;
+    height:100%;
+    margin-bottom: 0;
+    background-image: url("../images/background_slide1.jpeg");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.accueil .jumbotron p {
+    width:60%;
+    align-self: flex-end;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+
+.accueil .down {
+    left: 50%;
+    bottom: 2%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.logo {
+    position: absolute;
+    background-color: rgba(33, 25, 14, 0.5);
+}
+
+.logo img {
+
+}
+
+/* ---- -------------------- ---- */
+/* ---- -- Menu Accordéon --- ---- */
+/* ---- -------------------- ---- */
+.container-fluid section.menu .row {
+    height: 60vh;
+}
+
+.accordion-group li:nth-child(6) .accordion-overlay {
+    background-color: #000000;
+    opacity: .7;
+}
+.accordion-group li:nth-child(6).out .accordion-overlay {
+    background-color: #000000;
+    opacity: 0;
+}
+.accordion-group li:nth-child(5) .accordion-overlay {
+    background-color: #000000;
+    opacity: .7;
+}
+.accordion-group li:nth-child(5).out .accordion-overlay {
+    background-color: #000000;
+    opacity: 0;
+}
+.accordion-group li:nth-child(4) .accordion-overlay {
+    background-color: #000000;
+    opacity: .7;
+}
+.accordion-group li:nth-child(4).out .accordion-overlay {
+    background-color: #000000;
+    opacity: 0;
+}
+.accordion-group li:nth-child(3) .accordion-overlay {
+    background-color: #000000;
+    opacity: .7;
+}
+.accordion-group li:nth-child(3).out .accordion-overlay {
+    background-color: #000000;
+    opacity: 0;
+}
+.accordion-group li:nth-child(2) .accordion-overlay {
+    background-color: #000000;
+    opacity: .7;
+}
+.accordion-group li:nth-child(2).out .accordion-overlay {
+    background-color: #000000;
+    opacity: 0;
+}
+.accordion-group li:nth-child(1) .accordion-overlay {
+    background-color: #000000;
+    opacity: .7;
+}
+.accordion-group li:nth-child(1).out .accordion-overlay {
+    background-color: #000000;
+    opacity: 0;
+}
+
+.accordion-group {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    height: 700px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.accordion-group li {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin: 0;
+    padding: 1.6em;
+    list-style: none;
+    width: 10%;
+    height: inherit;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+.accordion-group li h3 {
+    position: relative;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    padding: 0;
+    font-weight: 300;
+    margin: 6.5rem 0 0;
+}
+.accordion-group li .accordion-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+.accordion-group li section {
+    display: table;
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    min-height: 100%;
+}
+.accordion-group li section.big-section {
+    width: 100%;
+}
+.accordion-group li section article {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 4rem;
+    position: relative;
+    right: -200%;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+.accordion-group li section article p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1.6rem;
+    color: #333;
+    font-size: 1.6rem;
+    letter-spacing: .15rem;
+}
+.accordion-group li section article p:before,
+.accordion-group li section article p:after {
+    content: "";
+    display: block;
+    height: 1px;
+}
+.accordion-group li.out {
+    width: 50%;
+}
+.accordion-group li.out section article {
+    right: 0;
+}
+/* ---- Animation Responsive ---- */
+@media (max-width: 767px) {
+    .accordion-group {
+        height: 360px;
+        float: left;
+    }
+    .accordion-group li h3 {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        transform: rotate(90deg);
+        width: 2.5rem;
+        padding: 0;
+        margin: 10rem 0;
+    }
+}
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+/* ---- ---- ---- */
+
+/* --------- ------------ */
+/* ---- 3eme section ---- */
+/* --------- ------------ */
+.container-fluid section.presentation .row {
+    height: 100vh;
+}

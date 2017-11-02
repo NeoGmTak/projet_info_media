@@ -28,7 +28,6 @@ function html_header($title, $style = array())
 		
 		<!-- Styles communs -->
 		<link rel="stylesheet" type="text/css" href="./css/template.css">
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
 		
 		<!-- Style spécifique -->
 		'.$link.'
