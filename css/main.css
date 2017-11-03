@@ -138,13 +138,6 @@ section h2 {
 	padding: 0;
 	line-height: 1em;
 }
-section p {
-	font-weight: 300;
-	margin-bottom: 30px;
-	font-size: 1.1875em;
-	line-height: 1.6316;
-	color: #808080;
-}
 .section-content,
 .fake-content {
 	display: block;
