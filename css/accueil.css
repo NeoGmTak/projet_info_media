@@ -273,3 +273,55 @@ header.accueil {
 .container-fluid section.presentation .row {
     height: 100vh;
 }
+
+.gallery_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery_container div {
+    width: 50%;
+    background: #ccc;
+}
+
+.gallery_container div img {
+    width: 100%;
+}
+
+
+.gallery_container #box1 {
+    background-color: #176dee;
+    font-size: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery_container #box2 {
+    background-color: #d9452f;
+    color: #801f11;
+    font-family: Verdana;
+    font-size: 14px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.gallery_container #box3 {
+    background-color: #019d59;
+    font-family: Verdana;
+    font-size: 14px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.gallery_container #box4 {
+    background-color: #ffb904;
+    color: #4c3d18;
+    font-size: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

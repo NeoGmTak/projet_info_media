@@ -23,7 +23,7 @@
             <section class="menu">
                 <div class="row">
                     <ul class="accordion-group" id="accordion">
-                        <li style="background-image: url('images/accueil.jpeg');">
+                        <li style="background-image: url('images/accueil.jpeg');" onclick="javascript:location.href = '#'">
                             <div class="accordion-overlay"></div>
                             <h3>Accueil</h3>
                             <section class="hidden-xs">
@@ -32,7 +32,7 @@
                                 </article>
                             </section>
                         </li>
-                        <li class="out" style="background-image: url('images/culture.jpg');">
+                        <li class="out" style="background-image: url('images/culture.jpg');" onclick="javascript:location.href = 'culture.php'">
                             <div class="accordion-overlay"></div>
                             <h3>Culture</h3>
                             <section class="hidden-xs">
@@ -41,7 +41,7 @@
                                 </article>
                             </section>
                         </li>
-                        <li style="background-image: url('images/activites.JPG');">
+                        <li style="background-image: url('images/activites.JPG');" onclick="javascript:location.href = 'activites.php'">
                             <div class="accordion-overlay"></div>
                             <h3>Activités</h3>
                             <section class="hidden-xs">
@@ -50,7 +50,7 @@
                                 </article>
                             </section>
                         </li>
-                        <li style="background-image: url('images/ou_manger.jpg');">
+                        <li style="background-image: url('images/ou_manger.jpg');" onclick="javascript:location.href = 'ouManger.php'">
                             <div class="accordion-overlay"></div>
                             <h3>Où manger ?</h3>
                             <section class="hidden-xs">
@@ -59,7 +59,7 @@
                                 </article>
                             </section>
                         </li>
-                        <li style="background-image: url('images/ou_dormir.jpg');">
+                        <li style="background-image: url('images/ou_dormir.jpg');" onclick="javascript:location.href = 'ouDormir.php'">
                             <div class="accordion-overlay"></div>
                             <h3>Où dormir ?</h3>
                             <section class="hidden-xs">
@@ -68,7 +68,7 @@
                                 </article>
                             </section>
                         </li>
-                        <li style="background-image: url('images/galerie.jpg');">
+                        <li style="background-image: url('images/galerie.jpg');" onclick="javascript:location.href = 'planinteractif.php'">
                             <div class="accordion-overlay"></div>
                             <h3>Plan interactif</h3>
                             <section class="hidden-xs">
@@ -82,20 +82,23 @@
             </section>
             <section class="presentation">
                 <div class="row">
-                    <div class="col-lg-4 offset-lg-2">
-                        <ul>
-                            <li><img src="images/cathedrale_saint_jean.jpg" alt="Cathédrale Saint Jean - Vieux Lyon"></li>
-                        </ul>
-                        <ul>
-                            <li><img src="images/pass_st_georges.jpg" alt="Passerelle St Georges"></li>
-                        </ul>
-                        <ul>
-                            <li><img src="images/rue_vieux_lyon.jpeg" alt="Rue du vieux Lyon"></li>
-                        </ul>
-                        <ul>
-                            <li><img src="images/autre_rue_vieux_lyon.jpg" alt="Rue du vieux Lyon"></li>
-                        </ul>
-                    </div>
+                    <div class="col-lg-5 offset-lg-1 mos4">
+                        <div class="gallery_container">
+                            <div id="box1">
+                                <img src="images/cathedrale_saint_jean.jpg" alt="Cathédrale Saint Jean - Vieux Lyon">
+                            </div>
+                            <div id="box2">
+                                <img src="images/pass_st_georges.jpg" alt="Passerelle St Georges">
+                            </div>
+                        </div>
+                        <div class="gallery_container">
+                            <div id="box3">
+                                <img src="images/rue_vieux_lyon.jpeg" alt="Rue du vieux Lyon">
+                            </div>
+                            <div id="box4">
+                                <img src="images/autre_rue_vieux_lyon.jpg" alt="Rue du vieux Lyon">
+                            </div>
+                        </div>
                 </div>
             </section>
 		</div>
