@@ -20,7 +20,7 @@ body {
 /* ---- -------------------- ---- */
 /* ---- ---- Page Header ---- ---- */
 /* ---- -------------------- ---- */
-header.accueil {
+section.accueil {
     position: relative;
     width: 100%;
     height: 100%;
@@ -75,7 +75,7 @@ header.accueil {
 /* ---- -- Menu Accordéon --- ---- */
 /* ---- -------------------- ---- */
 .container-fluid section.menu {
-    height: 80vh;
+    height: 100vh;
 }
 
 .container-fluid section.menu .row {
@@ -179,17 +179,17 @@ header.accueil {
     -moz-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out;
 }
-.accordion-group li section {
+.accordion-group li div {
     display: table;
     width: 75%;
     height: auto;
     margin: 0 auto;
     min-height: 100%;
 }
-.accordion-group li section.big-section {
+.accordion-group li div.big-section {
     width: 100%;
 }
-.accordion-group li section article {
+.accordion-group li div article {
     display: table-cell;
     vertical-align: middle;
     padding: 4rem;
@@ -199,15 +199,15 @@ header.accueil {
     -moz-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out;
 }
-.accordion-group li section article p {
+.accordion-group li div article p {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 1.6rem;
     color: #333;
-    font-size: 1.6rem;
-    letter-spacing: .15rem;
+    font-size: 1.2rem;
+    letter-spacing: .05rem;
 }
-.accordion-group li section article p:before,
-.accordion-group li section article p:after {
+.accordion-group li div article p:before,
+.accordion-group li div article p:after {
     content: "";
     display: block;
     height: 1px;
@@ -215,7 +215,7 @@ header.accueil {
 .accordion-group li.out {
     width: 50%;
 }
-.accordion-group li.out section article {
+.accordion-group li.out div article {
     right: 0;
 }
 /* ---- Animation Responsive ---- */
@@ -320,6 +320,7 @@ h1 {
 
 .row .presentation_content {
     text-align: center;
+    margin: auto;
 }
 
 
