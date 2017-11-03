@@ -84,21 +84,26 @@
                 <div class="row">
                     <div class="col-lg-5 offset-lg-1 mos4">
                         <div class="gallery_container">
-                            <div id="box1">
+                            <div class="box" id="box1">
                                 <img src="images/cathedrale_saint_jean.jpg" alt="Cathédrale Saint Jean - Vieux Lyon">
                             </div>
-                            <div id="box2">
+                            <div class="box" id="box2">
                                 <img src="images/pass_st_georges.jpg" alt="Passerelle St Georges">
                             </div>
                         </div>
                         <div class="gallery_container">
-                            <div id="box3">
+                            <div class="box" id="box3">
                                 <img src="images/rue_vieux_lyon.jpeg" alt="Rue du vieux Lyon">
                             </div>
-                            <div id="box4">
+                            <div class="box" id="box4">
                                 <img src="images/autre_rue_vieux_lyon.jpg" alt="Rue du vieux Lyon">
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-5 presentation_content">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin justo nisi, tempor imperdiet turpis bibendum, congue placerat ligula. Nulla vel arcu vel eros sagittis dictum a sed tortor. Suspendisse aliquet et ante quis suscipit. Nulla blandit nisi vel sem fringilla, non vulputate odio auctor. Morbi iaculis nibh id justo tempor mattis. Nullam posuere nulla quis sem feugiat, vitae viverra mauris bibendum. Ut et mollis felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis convallis quam, vitae pellentesque metus placerat non. Donec fringilla vel ligula nec rhoncus. In hac habitasse platea dictumst. Duis eget pharetra lectus.</p>
+                    </div>
                 </div>
             </section>
 		</div>

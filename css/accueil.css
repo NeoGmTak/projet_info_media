@@ -74,8 +74,12 @@ header.accueil {
 /* ---- -------------------- ---- */
 /* ---- -- Menu Accordéon --- ---- */
 /* ---- -------------------- ---- */
+.container-fluid section.menu {
+    height: 80vh;
+}
+
 .container-fluid section.menu .row {
-    height: 60vh;
+    height: 100%;
 }
 
 .accordion-group li:nth-child(6) .accordion-overlay {
@@ -133,7 +137,7 @@ header.accueil {
     padding: 0;
     list-style: none;
     width: 100%;
-    height: 700px;
+    height: 100%;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -270,13 +274,23 @@ header.accueil {
 /* --------- ------------ */
 /* ---- 3eme section ---- */
 /* --------- ------------ */
-.container-fluid section.presentation .row {
+.container-fluid section.presentation {
     height: 100vh;
+    position: relative;
+    background-color: #f9f1e8;
+}
+
+.container-fluid section.presentation .row {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
 }
 
 .gallery_container {
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery_container div {
@@ -284,44 +298,31 @@ header.accueil {
     background: #ccc;
 }
 
+.gallery_container .mos4 {
+    height: 50%;
+}
+
 .gallery_container div img {
-    width: 100%;
+    min-width: 300px;
+    height: 100%;
 }
 
-
-.gallery_container #box1 {
-    background-color: #176dee;
-    font-size: 12em;
+.gallery_container .box {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.gallery_container #box2 {
-    background-color: #d9452f;
-    color: #801f11;
-    font-family: Verdana;
-    font-size: 14px;
-    padding: 30px;
-    box-sizing: border-box;
+h1 {
+    font-family: "Luthier Bold";
+    text-align: center;
 }
 
-.gallery_container #box3 {
-    background-color: #019d59;
-    font-family: Verdana;
-    font-size: 14px;
-    padding: 30px;
-    box-sizing: border-box;
+.row .presentation_content {
+    text-align: center;
 }
 
-.gallery_container #box4 {
-    background-color: #ffb904;
-    color: #4c3d18;
-    font-size: 12em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 
