@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<script>			
+			function selectLanguage() 
+			{
+				var nav = navigator.appName;
+				var language;
+
+				if(nav == "Microsoft Internet Explorer")
+				{
+					language = navigator.browserLanguage;
+				}
+				else
+				{
+					language = navigator.language;
+				}
+
+				switch(language)
+				{
+					case "fr": case "fr-BE": case "fr-CA": case "fr-LU": case "fr-MC": case "fr-CH":
+						window.location.href = "la page en fr";
+						break;
+					case "en":
+						window.location.href = "la page en en";
+						break;
+					default:
+						window.location.href = "la page en en";
+						break;
+				}
+			}
+		</script>
+
+	</head>
+	<body onload="selectLanguage()">
+		
+	</body>
+</html>
