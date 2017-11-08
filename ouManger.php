@@ -2,22 +2,13 @@
 
 <!DOCTYPE html>
 <html>
-    <?php echo html_header('Où manger', array('css/styleOuManger.css'));  ?>
-    <head>
-        <?php 
-            include 'head.html';
-        ?>
-        <!--<style>
-            background-image: url("images/backgroundOuManger.jpg");
-        </style>-->
-    </head>
+    <?php echo html_header('Où manger', array('styleOuManger.css'));  ?>
     
     <body id="ouManger">
-        <div class="container">
-            <?php
-                //include 'header.html';
-            ?>
-            
+        <?php
+            include 'header.html';
+        ?>
+        <div class="container">    
             <div class="row" id="filtreOuManger">
                 <div class="col-md-2">
                     <a href="#" id="filtreTout">Tout</a>
@@ -57,9 +48,9 @@
             dataType : 'html',
             success : function(nomEtablissement, statut){
                 var tabLieux = nomEtablissement.split(";");
-                $('.row.lieuRestauration').html("");
+                $('.row.lieuRestauration').html("").fadeOut(20);
                 for(var i = 0; i < tabLieux.length-1; i++){
-                    $('.row.lieuRestauration').append('<div class="carteLieu">'+tabLieux[i]+'</div>');
+                    $('.row.lieuRestauration').append('<div class="carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
                 }
             },
             error : function(resultat, statut, erreur){
@@ -76,9 +67,9 @@
             dataType : 'html',
             success : function(nomEtablissement, statut){
                 var tabLieux = nomEtablissement.split(";");
-                $('.row.lieuRestauration').html("");
+                $('.row.lieuRestauration').html("").fadeOut(20);
                 for(var i = 0; i < tabLieux.length-1; i++){
-                    $('.row.lieuRestauration').append('<div class="col-md-offset-1 carteLieu">'+tabLieux[i]+'</div>');
+                    $('.row.lieuRestauration').append('<div class="carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
                 }
             },
             error : function(resultat, statut, erreur){
@@ -95,9 +86,9 @@
             dataType : 'html',
             success : function(nomEtablissement, statut){
                 var tabLieux = nomEtablissement.split(";");
-                $('.row.lieuRestauration').html("");
+                $('.row.lieuRestauration').html("").fadeOut(20);
                 for(var i = 0; i < tabLieux.length-1; i++){
-                    $('.row.lieuRestauration').append('<div class="col-md-offset-1 carteLieu">'+tabLieux[i]+'</div>');
+                    $('.row.lieuRestauration').append('<div class="carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
                 }
             },
             error : function(resultat, statut, erreur){
@@ -114,9 +105,9 @@
             dataType : 'html',
             success : function(nomEtablissement, statut){
                 var tabLieux = nomEtablissement.split(";");
-                $('.row.lieuRestauration').html("");
+                $('.row.lieuRestauration').html("").fadeOut(20);
                 for(var i = 0; i < tabLieux.length-1; i++){
-                    $('.row.lieuRestauration').append('<div class="col-md-offset-1 carteLieu">'+tabLieux[i]+'</div>');
+                    $('.row.lieuRestauration').append('<div class="carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
                 }
             },
             error : function(resultat, statut, erreur){
@@ -133,9 +124,9 @@
             dataType : 'html',
             success : function(nomEtablissement, statut){
                 var tabLieux = nomEtablissement.split(";");
-                $('.row.lieuRestauration').html("");
+                $('.row.lieuRestauration').html("").fadeOut(20);
                 for(var i = 0; i < tabLieux.length-1; i++){
-                    $('.row.lieuRestauration').append('<div class="col-md-offset-1 carteLieu">'+tabLieux[i]+'</div>');
+                    $('.row.lieuRestauration').append('<div class="carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
                 }
             },
             error : function(resultat, statut, erreur){
