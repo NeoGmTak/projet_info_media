@@ -40,12 +40,12 @@ body{
     margin-bottom: 2em;
 }
 
-.imgEtablissementResto{
+.imgEtablissement{
     width: 100%;
     height: 50%;
 }
 
-.typeEtabRestau{
+.typeEtab{
     color: #D93040;
     font-size: 10pt;
     text-align: left;
@@ -55,7 +55,7 @@ body{
     width: 100%;
 }
 
-.nomEtabRestau{
+.nomEtab{
     color: #21190E;
     font-size: 15pt;
     text-align: center;
@@ -63,7 +63,7 @@ body{
     margin-top: -0.6em;
 }
 
-.descRestau{
+.desc{
     text-align: justify;
     margin: 0 1em 1em 1em;
 }

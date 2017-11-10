@@ -44,7 +44,7 @@
         $.ajax({
             url: 'requete.php', //ressource ciblée
             type : 'GET',
-            data : 'typeEtablissement=1',
+            data : 'typeEtablissement=1&page=\'ouManger\'',
             dataType : 'html',
             success : function(nomEtablissement, statut){
                 var tabLieux = nomEtablissement.split(";");
