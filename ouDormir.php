@@ -10,7 +10,7 @@
         ?>
         <div class="container">    
             <div class="row" id="filtreOuDormir">
-                <div class="col-md-offset-1 col-md-2">
+                <div class="col-md-2">
                     <a href="#" id="filtreTout">Tout</a>
                 </div>
                 
@@ -46,7 +46,7 @@
                 var tabLieux = nomEtablissement.split(";");
                 $('.row.lieuRepos').html("").fadeOut(20);
                 for(var i = 0; i < tabLieux.length-1; i++){
-                    $('.row.lieuRepos').append('<div class="carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
+                    $('.row.lieuRepos').append('<div class="col-md-2 col-sm-4 col-xs-6 carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
                 }
             },
             error : function(resultat, statut, erreur){
@@ -65,7 +65,7 @@
                 var tabLieux = nomEtablissement.split(";");
                 $('.row.lieuRepos').html("").fadeOut(20);
                 for(var i = 0; i < tabLieux.length-1; i++){
-                    $('.row.lieuRepos').append('<div class="carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
+                    $('.row.lieuRepos').append('<div class="col-md-2 col-sm-4 col-xs-6 carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
                 }
             },
             error : function(resultat, statut, erreur){
@@ -84,7 +84,7 @@
                 var tabLieux = nomEtablissement.split(";");
                 $('.row.lieuRepos').html("").fadeOut(20);
                 for(var i = 0; i < tabLieux.length-1; i++){
-                    $('.row.lieuRepos').append('<div class="carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
+                    $('.row.lieuRepos').append('<div class="col-md-2 col-sm-4 col-xs-6 carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
                 }
             },
             error : function(resultat, statut, erreur){
@@ -103,7 +103,7 @@
                 var tabLieux = nomEtablissement.split(";");
                 $('.row.lieuRepos').html("").fadeOut(20);
                 for(var i = 0; i < tabLieux.length-1; i++){
-                    $('.row.lieuRepos').append('<div class="carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
+                    $('.row.lieuRepos').append('<div class="col-md-2 col-sm-4 col-xs-6 carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
                 }
             },
             error : function(resultat, statut, erreur){

@@ -10,11 +10,8 @@ body{
 #filtreOuManger{
     margin-top: 12em;
     margin-bottom: 5em;
+    margin-left: 2.5em;
     text-align: center;
-}
-
-#filtreOuManger div:first-child{
-    margin-left: 5em;
 }
 
 #filtreOuManger a{
@@ -32,7 +29,6 @@ body{
 .carteLieu{
     background: #fff;
     height: 40%;
-    width: 18%;
     margin-left: 4em;
     display: inline-flex;
     flex-wrap: wrap;
@@ -43,6 +39,7 @@ body{
 .imgEtablissement{
     width: 100%;
     height: 50%;
+    padding-top: 0.2em;
 }
 
 .typeEtab{
