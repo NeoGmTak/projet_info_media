@@ -4,8 +4,9 @@ html, body, .container{
 
 body{
     background-image: url(../images/backgroundOuDormir.png);
-    background-clip:border-box;
+    background-clip: content-box;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #filtreOuDormir{
@@ -20,7 +21,7 @@ body{
 
 #filtreOuDormir a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 15pt;
 }
 
