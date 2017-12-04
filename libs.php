@@ -4,7 +4,6 @@
  * User: Ju'
  * Date: 30/10/2017
  */
-
 function html_header($title, $style = array(), $script = array())
 {
     $link = '';
@@ -13,13 +12,11 @@ function html_header($title, $style = array(), $script = array())
             $link .= "<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/$lien\">\n";
         }
     }
-
     if(count($script) != 0) {
         foreach ($script as $lien){
             $link .= "<link type=\"text/javascript\" href=\"./js/$lien\">\n";
         }
     }
-
     return '
     <head>
         <title>'.$title.'</title>
