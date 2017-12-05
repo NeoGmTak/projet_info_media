@@ -17,8 +17,7 @@
     <link rel="stylesheet" href="css/accueil.css" id="stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="favicon.png">
+
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -28,9 +27,15 @@
     <div class="main">
         <!-- page 1-->
         <section id="page1">
-            <div class="overlay"></div>
+            <!--<div class="overlay"></div>-->
             <div class="content-head">
                 <div class="container clearfix">
+                    <div class="row">
+                        <div class="col-md-offset-4 col-md-4 col-sm-12 logo-background">
+                            <img src="images/Logo.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="ecart"></div>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
                             <h1>Vieux Lyon</h1>
@@ -50,18 +55,6 @@
                 <div class="container-fluid clearfix">
                     <div class="row">
                         <ul class="accordion-group" id="accordion">
-                            <li style="background-image: url('images/accueil.jpeg');"
-                                onclick="javascript:location.href = '#'">
-                                <div class="accordion-overlay"></div>
-                                <h3>Accueil</h3>
-                                <div class="hidden-xs">
-                                    <article>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat
-                                            neque at lectus dictum, sed tincidunt lacus blandit. Ut congue diam eget
-                                            urna tempus, maximus viverra risus porttitor. </p>
-                                    </article>
-                                </div>
-                            </li>
                             <li class="out" style="background-image: url('images/culture.jpg');"
                                 onclick="javascript:location.href = 'culture.php'">
                                 <div class="accordion-overlay"></div>
@@ -102,6 +95,18 @@
                                 onclick="javascript:location.href = 'ouDormir.php'">
                                 <div class="accordion-overlay"></div>
                                 <h3>Où dormir ?</h3>
+                                <div class="hidden-xs">
+                                    <article>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat
+                                            neque at lectus dictum, sed tincidunt lacus blandit. Ut congue diam eget
+                                            urna tempus, maximus viverra risus porttitor. </p>
+                                    </article>
+                                </div>
+                            </li>
+                            <li style="background-image: url('images/accueil.jpeg');"
+                                onclick="javascript:location.href = '#'">
+                                <div class="accordion-overlay"></div>
+                                <h3>Galerie photos</h3>
                                 <div class="hidden-xs">
                                     <article>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat
