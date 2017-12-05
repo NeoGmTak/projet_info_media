@@ -8,10 +8,10 @@
 try
     {
         //paramètre de connexion local
-        $host='localhost';
-        $bdd='g4infomedia';
-        $user='root';
-        $pwd='sparadrap2802';
+        $host='povf.myd.infomaniak.com';
+        $bdd='povf_projet';
+        $user='povf_maxime';
+        $pwd='Maxime-123456789';
              
         // On se connecte à la base de donnée
         $bdd = new PDO('mysql:host='.$host.';dbname='.$bdd.';charset=utf8', $user, $pwd);
