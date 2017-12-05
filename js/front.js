@@ -322,3 +322,16 @@ $("select").each(function() {
         $badge.html($count++);
     });
 }.call(this));
+
+$('#menu-link').on("click", function(e) {
+    $(".main").moveTo(2);
+});
+$('#monument-link').on("click", function(e) {
+    $(".main").moveTo(2);
+});
+$('#museum-link').on("click", function(e) {
+    $(".main").moveTo(3);
+});
+$('#trip-link').on("click", function(e) {
+    $(".main").moveTo(4);
+});

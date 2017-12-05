@@ -32,13 +32,13 @@
                 <div class="container clearfix">
                     <div class="row">
                         <div class="col-md-offset-4 col-md-4 col-sm-12 logo-background">
-                            <img src="images/Logo.png" alt="" class="img-responsive">
+                            <img src="images/Logo.png" alt="" class="img-responsive" id="logo-vieux-lyon">
                         </div>
                     </div>
                     <div class="ecart"></div>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
-                            <h1>Vieux Lyon</h1>
+                            <!--<h1>Vieux Lyon</h1>-->
                             <p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et nunc
                                 finibus, mattis tellus sit amet, tincidunt odio. Ut congue lectus non lectus tempor
                                 accumsan. Duis volutpat vel justo ut ultrices. Nulla faucibus sodales velit, ac
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="icon faa-float animated"><i class="fa fa-angle-double-down"></i></div>
+            <a href="#" id="menu-link"><div class="icon faa-float animated"><i class="fa fa-angle-double-down"></i></div></a>
         </section>
         <!-- page 2-->
         <section id="page2">
@@ -67,7 +67,7 @@
                                     </article>
                                 </div>
                             </li>
-                            <li style="background-image: url('images/activites.JPG');"
+                            <li style="background-image: url('images/activites.jpg');"
                                 onclick="javascript:location.href = 'activites.php'">
                                 <div class="accordion-overlay"></div>
                                 <h3>Activités</h3>
@@ -103,7 +103,7 @@
                                     </article>
                                 </div>
                             </li>
-                            <li style="background-image: url('images/accueil.jpeg');"
+                            <li style="background-image: url('images/accueil.jpg');"
                                 onclick="javascript:location.href = '#'">
                                 <div class="accordion-overlay"></div>
                                 <h3>Galerie photos</h3>

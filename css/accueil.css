@@ -15,6 +15,7 @@ body {
 
 .italic {
     font-style: italic;
+    font-family: "Luthier";
 }
 
 .main {
@@ -124,19 +125,23 @@ h4.heading:after {
 
 #page1 {
     text-align: center;
-    background: url('../images/background_slide1.jpeg') center center no-repeat;
+    background: url('../images/background_slide1.jpg') center center no-repeat;
     background-size: cover;
     color: #F9F1E8;
 }
 
 .ecart {
-    height: 220px;
+    height: 250px;
 }
 
 @media (max-width: 767px) {
     .ecart {
-        height: 0;
+        height: 150px;
     }
+}
+
+#logo-vieux-lyon {
+    max-width: 400px;
 }
 
 #page1 h1,
@@ -177,7 +182,7 @@ body {
 }
 
 a {
-    color: #4fbfa8;
+    color: #F9F1E8;
     text-decoration: none;
 }
 
@@ -641,6 +646,12 @@ a.bg-primary:hover {
     padding: 0;
     font-weight: 300;
     margin: 6.5rem 0 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 40rem;
+    padding: 0;
+    margin: 18rem -20rem;
 }
 
 .accordion-group li .accordion-overlay {
@@ -684,6 +695,7 @@ a.bg-primary:hover {
     color: #333;
     font-size: 2rem;
     letter-spacing: .05rem;
+    margin: -25rem 0;
 }
 
 .accordion-group li div article p:before,
@@ -703,9 +715,8 @@ a.bg-primary:hover {
 }
 
 /* ---- Animation Responsive ---- */
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
     .accordion-group {
-        height: 360px;
         float: left;
     }
 
@@ -713,11 +724,11 @@ a.bg-primary:hover {
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
         transform: rotate(90deg);
-        width: 2.5rem;
+        width: 40rem;
         padding: 0;
-        margin: 10rem 0;
+        margin: 18rem -20rem;
     }
-}
+}*/
 
 @-webkit-keyframes rotate {
     from {
