@@ -979,10 +979,6 @@ a.list-group-item.active > .badge,
   width: 100vw;
 }
 
-.menu-nav {
-  height: 35vh;
-}
-
 .row-page1 {
   height: 100%;
 }
@@ -1005,3 +1001,51 @@ a.list-group-item.active > .badge,
 .vignette_black {
   background-color: #21190E;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+/* ---- PAGE 2 ---- */
+#page2 .clearfix {
+  height:100%;
+}
+
+.clearfix .row {
+  height: 100%;
+}
+
+.descr-monuments {
+  height: 100%;
+}
+
+.descr-monuments .row {
+  display: flex;
+}
+
+.content-descr {
+  flex-direction: column;
+  align-self: center;
+}
+
+.menu-nav {
+  height: 35vh;
+}
+
+.clearfix .row div.photo-monuments .row {
+  height: 33.3333vh;
+}
+
+.photo-monuments .row .vignette-photo-monuments {
+  height: 100%;
+  overflow: hidden;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.photo-monuments .row .vignette-photo-monuments img {
+  width: 100%;
+}
+
+
+
+

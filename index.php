@@ -39,10 +39,8 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
                             <!--<h1>Vieux Lyon</h1>-->
-                            <p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et nunc
-                                finibus, mattis tellus sit amet, tincidunt odio. Ut congue lectus non lectus tempor
-                                accumsan. Duis volutpat vel justo ut ultrices. Nulla faucibus sodales velit, ac
-                                scelerisque neque ullamcorper eu. Nullam ac volutpat magna.</p>
+                            <p class="italic">Vous retrouverez ici toutes les informations nécessaires à votre visite dans notre quartier.
+                                Venez découvrir les merveilles culturelles de l'ère du Moyen-Âge et de la Renaissance ainsi que de nombreux restaurants et hôtels du Vieux Lyon.</p>
                         </div>
                     </div>
                 </div>
@@ -61,9 +59,7 @@
                                 <h3>Culture</h3>
                                 <div class="hidden-xs">
                                     <article>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat
-                                            neque at lectus dictum, sed tincidunt lacus blandit. Ut congue diam eget
-                                            urna tempus, maximus viverra risus porttitor. </p>
+                                        <p>Venez découvrir la culture du Vieux Lyon et en apprendre plus sur notre quartier.</p>
                                     </article>
                                 </div>
                             </li>
@@ -73,9 +69,7 @@
                                 <h3>Activités</h3>
                                 <div class="hidden-xs">
                                     <article>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat
-                                            neque at lectus dictum, sed tincidunt lacus blandit. Ut congue diam eget
-                                            urna tempus, maximus viverra risus porttitor. </p>
+                                        <p>Venez visiter les lieux culturels de notre quartier et découvrez les activités du moment.</p>
                                     </article>
                                 </div>
                             </li>
@@ -85,9 +79,7 @@
                                 <h3>Où manger ?</h3>
                                 <div class="hidden-xs">
                                     <article>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat
-                                            neque at lectus dictum, sed tincidunt lacus blandit. Ut congue diam eget
-                                            urna tempus, maximus viverra risus porttitor. </p>
+                                        <p>Trouvez un restaurant à votre goût et découvrez une gastronomie propre au Vieux Lyon.</p>
                                     </article>
                                 </div>
                             </li>
@@ -97,9 +89,7 @@
                                 <h3>Où dormir ?</h3>
                                 <div class="hidden-xs">
                                     <article>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat
-                                            neque at lectus dictum, sed tincidunt lacus blandit. Ut congue diam eget
-                                            urna tempus, maximus viverra risus porttitor. </p>
+                                        <p>Prolongez votre visite en prenant un des nombreux hôtels disponibles dans le Vieux Lyon.</p>
                                     </article>
                                 </div>
                             </li>
@@ -109,9 +99,7 @@
                                 <h3>Galerie photos</h3>
                                 <div class="hidden-xs">
                                     <article>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat
-                                            neque at lectus dictum, sed tincidunt lacus blandit. Ut congue diam eget
-                                            urna tempus, maximus viverra risus porttitor. </p>
+                                        <p>Découvrez nos photos du quartier du Vieux Lyon.</p>
                                     </article>
                                 </div>
                             </li>
@@ -121,9 +109,7 @@
                                 <h3>Plan interactif</h3>
                                 <div class="hidden-xs">
                                     <article>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat
-                                            neque at lectus dictum, sed tincidunt lacus blandit. Ut congue diam eget
-                                            urna tempus, maximus viverra risus porttitor. </p>
+                                        <p></p>
                                     </article>
                                 </div>
                             </li>
