@@ -67,3 +67,15 @@ body{
     text-align: justify;
     margin: 0 1em 1em 1em;
 }
+
+.plan{
+    text-align: center;
+}
+
+.bg_plan{
+    background-color: white;
+    opacity: 0.8;
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 20px;
+}
