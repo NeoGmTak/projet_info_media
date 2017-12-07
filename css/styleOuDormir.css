@@ -5,6 +5,7 @@ html, body, .container{
 body{
     background-image: url(../images/backgroundOuDormir.png);
     background-position: center;
+    background-attachment: fixed;
 }
 
 #filtreOuDormir{
@@ -28,7 +29,7 @@ body{
 
 .carteLieu{
     background: #F9F1E8;
-    height: 40%;
+    height: 50%;
     margin-left: 4em;
     display: inline-flex;
     flex-wrap: wrap;
@@ -39,9 +40,9 @@ body{
 }
 
 .imgEtablissement{
-    width: 116.4%;
+    width: 110.2%;
     height: 55%;
-    margin-left: -8%;
+    margin-left: -5%;
     border-radius: 2%;
 }
 
@@ -78,4 +79,5 @@ body{
     width: 20%;
     margin-left: 40%;
     border-radius: 20px;
+    margin-top: 25em;
 }
