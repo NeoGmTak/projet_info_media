@@ -47,6 +47,7 @@ section {
 .heading {
   text-align: center;
   margin-bottom: 40px;
+  font-family: "Luthier Bold";
 }
 .heading:after {
   content: " ";
@@ -103,6 +104,7 @@ h4.heading:after {
 #page1 h3 {
   color: #fff;
   font-size: 1.8em;
+  font-family: "San Francisco Bold";
 }
 @media (max-width: 768px) {
   #page1 h1,
@@ -134,7 +136,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
 
 /* scaffolding */
 body {
-  font-family: "Cardo", "Times New Roman", Times, serif;
+  font-family: "Luthier";
   font-size: 16px;
   line-height: 1.42857143;
   color: #333333;
@@ -349,7 +351,7 @@ a.bg-primary:hover {
 
 /* --- page1 --- */
 #page1 {
-  background: url('../images/background_slide1.jpg') center center no-repeat;
+  background: url('../images/background_slide1_culture.jpg') center center no-repeat;
   background-size: cover;
 }
 
@@ -433,6 +435,12 @@ a:link {
   height: 33.3333vh !important;
 }
 
+@media (max-width: 768px) {
+  .clearfix .row div.photo-monuments .row {
+    height: 50vh !important;
+  }
+}
+
 #culture-image1 {
   background-image: url("../images/culture-image1.jpg");
 }
@@ -491,6 +499,7 @@ a:link {
 }
 
 .museum-data {
+  height:100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -510,11 +519,30 @@ a:link {
   height: 50vh !important;
 }
 
+#culture-traboule1 {
+  background-image: url("../images/culture-traboule1.jpg");
+}
+
+#culture-traboule2 {
+  background-image: url("../images/culture-traboule2.jpg");
+}
+
+#culture-traboule3 {
+  background-image: url("../images/culture-traboule3.jpg");
+}
+
+#culture-traboule4 {
+  background-image: url("../images/culture-traboule4.jpg");
+}
+
 .photo-traboules .row .vignette-photo-traboules {
   height: 100%;
   overflow: hidden;
   padding-left: 0px;
   padding-right: 0px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .photo-traboules .row .vignette-photo-traboules img {
@@ -524,6 +552,7 @@ a:link {
 .page4-right-content {
   display: flex !important;
 }
+
 
 
 

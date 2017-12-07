@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Screen - Multipurpose Template By Bootstrapious.com</title>
+    <title>Vieux Lyon - Culture</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -70,23 +70,30 @@ include 'header.html';
                     <div class="row">
                         <div class="col-md-6 col-sm-12 descr-monuments">
                             <div class="row page2-left-content">
-                                <div class="col-md-12 content-descr">
+                                <div class="col-md-12 content-descr" id="culture-content1">
                                     <h2 class="heading">Cathédrale Saint-Jean</h2>
-                                    <p class="lead">Petite description</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor mauris
-                                        vulputate, semper leo quis, porta sapien. Ut vitae urna libero. Pellentesque hendrerit
-                                        justo vel turpis aliquet sollicitudin. Donec lacinia maximus dignissim. Phasellus tempus
-                                        volutpat purus a pharetra. Ut dapibus placerat leo sed vestibulum. Mauris sollicitudin
-                                        tortor vel porttitor hendrerit.</p>
-                                    <p>Donec nec maximus dui, sit amet cursus diam. In vel elementum elit, ac hendrerit est.
-                                        Cras scelerisque a leo sit amet congue. Nulla a nibh accumsan, placerat eros sed,
-                                        tristique lacus. Sed feugiat euismod est id mollis. Morbi vitae turpis facilisis, cursus
-                                        nisi vel, pellentesque mi. Donec id euismod libero. Mauris felis erat, porttitor vitae
-                                        ullamcorper quis, ultrices ut justo. Nullam ac mauris nec lectus elementum rutrum.
-                                        Vivamus at lorem nec lacus commodo vestibulum. Maecenas placerat ornare justo, nec
-                                        ornare elit bibendum vitae.</p>
+                                    <p>La Cathédrale Saint-Jean est un des éléments marquant du quartier médiéval et Renaissance du Vieux Lyon. Achevée en 1480, après trois siècles de construction.
+                                        La Cathédrale Saint-Jean a fortement été endommagée lors des guerres de religion en 1562 et par la Révolution Française en 1793.</p>
+                                    <p>Elle fût restaurée au XIXe siècle d'abord dans le classicisme puis après l'arrivée d'un nouvel architecte, dans le style gothique. La Seconde guerre mondiale vient interrompre les travaux notamment en 1944, lors du retrait des troupes allemandes, où le quartier subit des sabotages, et dont les explosions viennent briser les vitraux.
+                                        Une fois la guerre finie, les travaux reprennent et se terminent au début du XXIe siècle.</p>
+                                    <p>Elle est classée "Monument Historique" depuis 1862, puis en 1964, elle est intégrée dans le premier "Secteur Sauvegardé".</p>
+                                    <p>Enfin en Décembre 1998, elle fût reconnue comme "Patrimoine Mondial" à la vue de sa localisation dans le site historique de Lyon.</p>
                                 </div>
-
+                                <div class="col-md-12 content-descr" id="culture-content2" style="display: none;">
+                                    <h2 class="heading">Église Saint-Georges</h2>
+                                    <p>L'église Saint-Georges fût construite au VIe siècle. En 1315, les chevaliers de l'ordre de Saint-Jean de Jérusalem s'installent dans le monastère de l'église. En 1492, l'église fût restaurée.</p>
+                                    <p>Mais en 1796 le clocher s'effondre. Décrétée "Bien National" elle fût vendue en 1807, mais un incendie l’a en 1854.</p>
+                                    <p>Elle a été reconstruite à partir de 1842.</p>
+                                </div>
+                                <div class="col-md-12 content-descr" id="culture-content3" style="display: none;">
+                                    <h2 class="heading">Temple du Change</h2>
+                                    <p>Construit entre 1631 et 1653, le Temple du Change est un ancien établissement boursier. Etant au début, un petit édifice classique, l'espace qu'il proposait devint insuffisant mais aucune modification n'a pu être faite avant 1748.</p>
+                                    <p>Les maisons mitoyennes furent abattues, ce qui a permis d'agrandir l'édifice, qui gagne une cinquième arcade en façade et surtout une grande salle à l'arrière qui est aussi haute et aussi large que le bâtiment.</p>
+                                    <p>Lors de la Révolution, le Temple du Change est abandonné, et devient momentanément une auberge.</p>
+                                    <p>En 1803, elle fût attribuée aux protestants et subit d'importantes modifications d'aménagement intérieur.</p>
+                                    <p>En 1913 sa façade est classée au titre des "Monuments Historiques" et le reste de l'édifice fût inscrit aux "Monuments Historiques" en 2013.</p>
+                                    <p>Enfin, en 2015, la ville de Lyon entreprend d'importants travaux de restauration sur l'ensemble du bâtiment.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12 photo-monuments">
@@ -129,23 +136,17 @@ include 'header.html';
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12 museum-data">
                             <h2 class="heading">Musée des miniatures</h2>
-                            <p class="lead">Petite description</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor mauris
-                                vulputate, semper leo quis, porta sapien. Ut vitae urna libero. Pellentesque hendrerit
-                                justo vel turpis aliquet sollicitudin. Donec lacinia maximus dignissim. Phasellus tempus
-                                volutpat purus a pharetra. Ut dapibus placerat leo sed vestibulum. Mauris sollicitudin
-                                tortor vel porttitor hendrerit.</p>
+                            <p>Le musée Miniature et Cinéma a été fondé par l'artiste miniaturiste Dan Ohlmann. C'est un musée privé hébergé dans le bâtiment historique classé de l'ancienne "Maison des Avocats".</p>
+                            <p>Ce musée abrite deux collections permanentes, l'une consacrée à l'art de la miniature et l'autre aux techniques d'effets spéciaux du cinéma, dont douze salles y sont consacrées, comprenant des matériels et pièces d'origines : masques et prothèses, animatroniques, véhicules et décors miniatures mais aussi grandeur nature.</p>
+                            <p>Le musée accueille aussi de temps en temps des expositions temporaires.</p>
                         </div>
                     </div>
                     <div class="row row-museum2">
                         <div class="col-md-6 col-sm-12 col-xs-12 museum-data">
-                            <h2 class="heading">Musée Guignol</h2>
-                            <p class="lead">Petite description</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor mauris
-                                vulputate, semper leo quis, porta sapien. Ut vitae urna libero. Pellentesque hendrerit
-                                justo vel turpis aliquet sollicitudin. Donec lacinia maximus dignissim. Phasellus tempus
-                                volutpat purus a pharetra. Ut dapibus placerat leo sed vestibulum. Mauris sollicitudin
-                                tortor vel porttitor hendrerit.</p>
+                            <h2 class="heading">Théâtre la Maison de Guignol</h2>
+                            <p>Le Théâtre la Maison de Guignol a été créé en 1965 par des passionnés de Guignol, suite à la destruction du Grand Théâtre de Guignol en 1962.</p>
+                            <p>Fondé par M. Charnoud, ce sont les Cardelli qui en ont repris la direction en 2003 afin de continuer à perpétuer les spectacles et le parler lyonnais.</p>
+                            <p>Depuis le théâtre continue de produire des spectacles adaptés à tous, des concerts, et café-théâtre.</p>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <img src="images/culture-guignol.jpg" class="img-responsive">
@@ -157,41 +158,31 @@ include 'header.html';
         <section id="page4">
             <div class="container-fluid clearfix">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12 photo-traboules">
+                    <div class="col-md-6 col-sm-12 col-xs-12 photo-traboules">
                         <div class="row">
-                            <div class="col-sm-6 vignette-photo-traboules">
-                                <img src="images/culture-image1.jpg" alt="" class="img-responsive">
+                            <div class="col-sm-6 col-xs-6 vignette-photo-traboules" id="culture-traboule1">
+                                <!--<img src="images/culture-image1.jpg" alt="" class="img-responsive">-->
                             </div>
-                            <div class="col-sm-6 vignette-photo-traboules">
-                                <img src="images/culture-image2.jpg" alt="" class="img-responsive">
+                            <div class="col-sm-6 col-xs-6 vignette-photo-traboules" id="culture-traboule2">
+                                <!--<img src="images/culture-image2.jpg" alt="" class="img-responsive">-->
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-6 vignette-photo-traboules">
-                                <img src="images/culture-image5.jpg" alt="" class="img-responsive">
+                            <div class="col-sm-6 col-xs-6 vignette-photo-traboules" id="culture-traboule3">
+                                <!--<img src="images/culture-image5.jpg" alt="" class="img-responsive">-->
                             </div>
-                            <div class="col-sm-6 vignette-photo-traboules">
-                                <img src="images/culture-image6.jpg" alt="" class="img-responsive">
+                            <div class="col-sm-6 col-xs-6 vignette-photo-traboules" id="culture-traboule4">
+                                <!--<img src="images/culture-image6.jpg" alt="" class="img-responsive">-->
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12 descr-traboules">
+                    <div class="col-md-6 col-sm-12 col-xs-12 descr-traboules">
                         <div class="row page4-right-content">
-                            <div class="col-md-12 content-descr">
-                                <h2 class="heading">Lyon et ses traboules</h2>
-                                <p class="lead">Petite description</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porttitor mauris
-                                    vulputate, semper leo quis, porta sapien. Ut vitae urna libero. Pellentesque hendrerit
-                                    justo vel turpis aliquet sollicitudin. Donec lacinia maximus dignissim. Phasellus tempus
-                                    volutpat purus a pharetra. Ut dapibus placerat leo sed vestibulum. Mauris sollicitudin
-                                    tortor vel porttitor hendrerit.</p>
-                                <p>Donec nec maximus dui, sit amet cursus diam. In vel elementum elit, ac hendrerit est.
-                                    Cras scelerisque a leo sit amet congue. Nulla a nibh accumsan, placerat eros sed,
-                                    tristique lacus. Sed feugiat euismod est id mollis. Morbi vitae turpis facilisis, cursus
-                                    nisi vel, pellentesque mi. Donec id euismod libero. Mauris felis erat, porttitor vitae
-                                    ullamcorper quis, ultrices ut justo. Nullam ac mauris nec lectus elementum rutrum.
-                                    Vivamus at lorem nec lacus commodo vestibulum. Maecenas placerat ornare justo, nec
-                                    ornare elit bibendum vitae.</p>
+                            <div class="col-md-12 col-md-12 col-xs-12 content-descr">
+                                <h2 class="heading">Lyon et ses Traboules</h2>
+                                <p>La ville de Lyon dénombre environ 500 traboules, dont 215 sont suitées dans le Vieux Lyon. Elles datent de la Renaissance et ont été construites suivant le modèle du patio romain avec ses galeries et le puits dans la cour.</p>
+                                <p>Les traboules servaient principalement à accéder aux bords de Saône et à accéder d'une rue à l'autre rapidement.</p>
+                                <p>De nos jours, la plupart des traboules sont privés mais certaines restent ouvertes au public et sont entretenues à 70% par la ville de Lyon.</p>
                             </div>
 
                         </div>
@@ -204,27 +195,11 @@ include 'header.html';
 </div>
 <!-- Javascript files-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+<script script>
+<scxspt>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<script src="js/jquery.cookie.js"></script>
 <script src="js/jquery.onepage-scroll.js"></script>
 <script src="js/front.js"></script>
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
-<script>
-    (function (b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function () {
-                (b[l].q = b[l].q || []).push(arguments)
-            });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = '//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X');
-    ga('send', 'pageview');
-</script>
+<script src="js/culture.js"></script>
 </body>
 </html>

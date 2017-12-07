@@ -103,16 +103,6 @@
                                     </article>
                                 </div>
                             </li>
-                            <li style="background-image: url('images/galerie.jpg');"
-                                onclick="javascript:location.href = 'planinteractif.php'">
-                                <div class="accordion-overlay"></div>
-                                <h3>Plan interactif</h3>
-                                <div class="hidden-xs">
-                                    <article>
-                                        <p></p>
-                                    </article>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </div>
