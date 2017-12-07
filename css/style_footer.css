@@ -82,3 +82,40 @@
 {
 	width: 22%;
 }
+
+@media (max-width: 640px){
+    .btn_footer{
+        width: 80%;
+        margin-top: 0.5em;
+    }
+    
+    #img_fb
+    {
+        width: 55%;
+    }
+
+    #img_tw
+    {
+        width: 55%;
+    }
+
+    #img_in
+    {
+        width: 50%;
+    }
+
+    #img_qsn
+    {
+        width: 55%;
+    }
+
+    #img_mail
+    {
+        width: 50%;
+    }
+
+    #img_mentions
+    {
+        width: 52%;
+    }
+}

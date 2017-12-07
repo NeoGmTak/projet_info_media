@@ -112,14 +112,14 @@
   border-color: #21190E;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #D93040;
+  background-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar {
   color: #21190E;
   background-color: #21190E;
 }
 .navbar-default .navbar-collapse.collapse.in ul {
-  background-color: #D93040;
+  background-color: white;
 }
 
 /* Solid class attached on scroll past first section */

@@ -81,3 +81,35 @@ body{
     border-radius: 20px;
     margin-top: 55em;
 }
+
+@media (max-width: 640px){
+    .carteLieu{
+        height: 65%;
+        width: 80%;
+    }
+    
+    .imgEtablissement{
+        height: 30%;
+        margin-left: -5%;
+    }
+    
+    .typeEtab{
+        margin-top: -7em;
+    }
+    
+    .nomEtab{
+        margin-top: -6em;
+    }
+    
+    .desc{
+        margin-top: -8em;
+    }
+    
+    .plan, .bg_plan{
+        margin-top: 110em;
+    }
+    
+    .bg_plan{
+        width: 45%;
+    }
+}
