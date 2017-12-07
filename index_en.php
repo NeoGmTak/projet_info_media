@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="./images/Logo.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Accueil</title>
+    <title>Home page</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,33 +21,8 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script>
-        function selectLanguage() {
-            var nav = navigator.appName;
-            var language;
-
-            if (nav == "Microsoft Internet Explorer") {
-                language = navigator.browserLanguage;
-            }
-            else {
-                language = navigator.language;
-            }
-            switch (language) {
-                case "fr":
-                case "fr-FR":
-                case "fr-BE":
-                case "fr-CA":
-                case "fr-LU":
-                case "fr-MC":
-                case "fr-CH": break;
-                default:
-                    window.location.href = "index_en.php";
-                    break;
-            }
-        }
-    </script>
 </head>
-<body onload="selectLanguage();">
+<body>
 <div class="wrapper">
     <div class="main">
         <!-- page 1-->
@@ -64,17 +39,12 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-12">
                             <!--<h1>Vieux Lyon</h1>-->
-                            <p class="italic">Vous retrouverez ici toutes les informations nécessaires à votre visite
-                                dans notre quartier.
-                                Venez découvrir les merveilles culturelles de l'ère du Moyen-Âge et de la Renaissance
-                                ainsi que de nombreux restaurants et hôtels du Vieux Lyon.</p>
+                            <p class="italic">Welcome to the Vieux Lyon website. You will find here all the information necessary for your visit in our district. Come to discover the cultural wonders of the Middle Ages and the Renaissance as well as many restaurants and hotels in Vieux Lyon.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="#" id="menu-link">
-                <div class="icon faa-float animated"><i class="fa fa-angle-double-down"></i></div>
-            </a>
+            <a href="#" id="menu-link"><div class="icon faa-float animated"><i class="fa fa-angle-double-down"></i></div></a>
         </section>
         <!-- page 2-->
         <section id="page2">
@@ -88,51 +58,47 @@
                                 <h3>Culture</h3>
                                 <div class="hidden-xs">
                                     <article>
-                                        <p>Venez découvrir la culture du Vieux Lyon et en apprendre plus sur notre
-                                            quartier.</p>
+                                        <p>Come to discover the culture of Vieux Lyon and learn more about our district.</p>
                                     </article>
                                 </div>
                             </li>
                             <li style="background-image: url('images/activites.jpg');"
                                 onclick="javascript:location.href = 'activite.php'">
                                 <div class="accordion-overlay"></div>
-                                <h3>Activités</h3>
+                                <h3>Activities</h3>
                                 <div class="hidden-xs">
                                     <article>
-                                        <p>Venez visiter les lieux culturels de notre quartier et découvrez les
-                                            activités du moment.</p>
+                                        <p>Come visit the cultural sites of our district and discover the activities of the moment.</p>
                                     </article>
                                 </div>
                             </li>
                             <li style="background-image: url('images/ou_manger.jpg');"
                                 onclick="javascript:location.href = 'ouManger.php'">
                                 <div class="accordion-overlay"></div>
-                                <h3>Où manger ?</h3>
+                                <h3>Eating</h3>
                                 <div class="hidden-xs">
                                     <article>
-                                        <p>Trouvez un restaurant à votre goût et découvrez une gastronomie propre au
-                                            Vieux Lyon.</p>
+                                        <p>Find a restaurant to your liking and discover a special gastronomy in Vieux Lyon.</p>
                                     </article>
                                 </div>
                             </li>
                             <li style="background-image: url('images/ou_dormir.jpg');"
                                 onclick="javascript:location.href = 'ouDormir.php'">
                                 <div class="accordion-overlay"></div>
-                                <h3>Où dormir ?</h3>
+                                <h3>Sleeping</h3>
                                 <div class="hidden-xs">
                                     <article>
-                                        <p>Prolongez votre visite en prenant un des nombreux hôtels disponibles dans le
-                                            Vieux Lyon.</p>
+                                        <p>Extend your visit by taking one of the many hotels available in Vieux Lyon.</p>
                                     </article>
                                 </div>
                             </li>
                             <li style="background-image: url('images/galerie.jpg');"
                                 onclick="javascript:location.href = '#'">
                                 <div class="accordion-overlay"></div>
-                                <h3>Galerie photos</h3>
+                                <h3>Photo Gallery</h3>
                                 <div class="hidden-xs">
                                     <article>
-                                        <p>Découvrez nos photos du quartier du Vieux Lyon.</p>
+                                        <p>Discover our photos of the Vieux Lyon district.</p>
                                     </article>
                                 </div>
                             </li>
@@ -166,28 +132,14 @@
                         <div class="row page3-right-content">
                             <div class="col-md-12 col-md-12 col-xs-12 content-descr">
                                 <h2 class="heading">Vieux Lyon</h2>
-                                <p>Le Vieux Lyon est le quartier médiéval et Renaissance de Lyon comptant environ 7000
-                                    habitants.</p>
-                                <p>Situé sur les bords de la Saône, au pied de la colline de Fourvière, c'est l'un des
-                                    quartiers les plus vastes concernant la période médiévale et Renaissance, qui est
-                                    encore resté intact jusqu'à nos jours.</p>
-                                <p>Le vieux Lyon se compose de trois quartiers : </p>
+                                <p>The Vieux Lyon is the medieval and Renaissance district of Lyon with about 7000 inhabitants.</p>
+                                <p>Situated on the borders of the Saône, at the foot of the Fourvière hill, it is one of the most extensive districts concerning the medieval and Renaissance period, which has remained intact until today. The Vieux Lyon consists of three districts : </p>
                                 <ul>
-                                    <li>Saint-Georges qui constituait l'extrémité sud de Lyon et communiquait avec
-                                        l'extérieur par la porte Saint-Georges, aujourd'hui détruite.
-                                    </li>
-                                    <li>Saint Jean, le quartier le plus connu avec l'église Saint-Jean. C'est aussi le
-                                        quartier le plus touristique de par ses nombreuses curiosités architecturales et
-                                        ses traboules.
-                                    </li>
-                                    <li>Saint-Paul qui desservait la vallée d'Azergues grâce à sa gare construite en
-                                        1873.
-                                    </li>
+                                    <li>Saint-Georges, which was the southern end of Lyon and communicated with the outside world through the now destroyed Saint-Georges gate.</li>
+                                    <li>Saint-Jean, the best-known district with the Saint-Jean church. It is also the most touristic district due to its many architectural curiosities and traboules.</li>
+                                    <li>Saint-Paul which served the valley of Azergues thanks to its railway station built in 1873.</li>
                                 </ul>
-                                <p>C'est dans ce quartier que l'on peut retrouver le Temple du Change ainsi que le
-                                    Théâtre la Maison de Guignol. Le quartier est classé dans la liste du "Patrimoine
-                                    Mondial" et sa préservation est assurée par l'association "La Renaissance du Vieux
-                                    Lyon".</p>
+                                <p>The Temple du Change and the Théâtre la Maison de Guignol can be found in this district. The district is classified in the "World Heritage" list and its preservation is ensured by the association "La Renaissance du Vieux Lyon".</p>
                             </div>
 
                         </div>
@@ -199,13 +151,11 @@
     </div>
 </div>
 
+    
 <!-- Javascript files-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"></script>
-')</script>
-<
-script
-src = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js" ></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"></script>')</script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script src="js/jquery.cookie.js"></script>
 <script src="js/jquery.onepage-scroll.js"></script>
 <script src="js/front.js"></script>
