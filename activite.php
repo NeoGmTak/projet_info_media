@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/onepage-scroll.css">
 
     <link rel="stylesheet" href="css/activite.css">
+    <link rel="stylesheet" type="text/css" href="css/activite-print.css" media="print">
     <link rel="stylesheet" href="css/template.css">
     <link rel="stylesheet" href="css/style_footer.css">
 
