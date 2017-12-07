@@ -5,6 +5,7 @@ html, body, .container{
 body{
     background-image: url(../images/backgroundOuDormir.png);
     background-position: center;
+    background-attachment: fixed;
 }
 
 #filtreOuDormir{
@@ -78,4 +79,5 @@ body{
     width: 20%;
     margin-left: 40%;
     border-radius: 20px;
+    margin-top: 25em;
 }

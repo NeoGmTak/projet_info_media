@@ -39,11 +39,13 @@
             
         </div>
         
-        <div class="bg_plan">
-            <h1 class="plan">Plan interactif</h1>
+        <div class="container-fluid">
+            <div class="bg_plan">
+                <h1 class="plan">Plan interactif</h1>
+            </div>
+
+            <div id="map-container"></div>            
         </div>
-        
-        <div id="map-container"></div>
         
         <script src="js/uber-google-maps.min.js"></script>
         <script>
