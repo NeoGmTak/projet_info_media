@@ -131,7 +131,7 @@ h4.heading:after {
 }
 
 .ecart {
-    height: 50vh;
+    height: 45vh;
 }
 
 @media (max-width: 767px) {
