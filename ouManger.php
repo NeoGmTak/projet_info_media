@@ -55,6 +55,25 @@
 </html>
 
 <script>
+    $(document).ready(function(){
+        $.ajax({
+            url: 'requete.php', //ressource ciblée
+            type : 'GET',
+            data : 'typeEtablissement=1&page=\'ouManger\'',
+            dataType : 'html',
+            success : function(nomEtablissement, statut){
+                var tabLieux = nomEtablissement.split(";");
+                $('.row.lieuRestauration').html("").fadeOut(20);
+                for(var i = 0; i < tabLieux.length-1; i++){
+                    $('.row.lieuRestauration').append('<div class="col-md-3 col-sm-4 col-xs-6 carteLieu">'+tabLieux[i]+'</div>').fadeIn(1000);
+                }
+            },
+            error : function(resultat, statut, erreur){
+                console.log(erreur);
+            }
+        });
+    });
+    
     $('#filtreTout').click(function(){
         $.ajax({
             url: 'requete.php', //ressource ciblée
