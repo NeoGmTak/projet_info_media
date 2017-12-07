@@ -131,12 +131,12 @@ h4.heading:after {
 }
 
 .ecart {
-    height: 250px;
+    height: 42vh;
 }
 
 @media (max-width: 767px) {
     .ecart {
-        height: 150px;
+        height: 33vh;
     }
 }
 
@@ -196,6 +196,10 @@ a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
+}
+
+a:visited {
+    color: #F9F1E8;
 }
 
 .img-rounded {
