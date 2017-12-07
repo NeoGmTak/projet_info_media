@@ -181,6 +181,9 @@ require_once('../../../libs.php');
         </div>
     </div>
 
+    <footer>
+        <?php include 'footer.html'; ?>
+    </footer>
     <!-- load jquery -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 

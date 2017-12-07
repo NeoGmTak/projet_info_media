@@ -8,7 +8,7 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 	background-color: #4E4E4E;
-	height: 210px;
+	height: 130px;
 	width: 100%;
 	position: relative;
 }
@@ -17,8 +17,8 @@
 
 .btn_footer
 {
-	width: 95%;
-	height: 90px;
+	width: 55%;
+	height: 50px;
 	margin: 2%;
 	border-radius: 30px;
 	border: none;
