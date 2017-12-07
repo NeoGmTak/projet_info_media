@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html>
-    <?php echo html_header('Où manger', array('styleOuManger.css'));  ?>
+    <?php echo html_header('Où manger', array('styleOuManger.css','style_footer.css'));  ?>
     <head>
         <link rel="stylesheet" href="css/uber-google-maps.min.css">
     </head>
