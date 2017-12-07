@@ -69,7 +69,6 @@ include 'header.html';
                                     <h2 class="heading">Visits of Lyon in Segway</h2>
                                     <p>The company ComhiC, official Segway dealer, offers you to discover the city of Lyon in Segway or electric bicycle, on sessions from 1h to 3h.
                                         You will be accompanied by an instructor who will train you to drive a Segway to ensure a safe ride.</p>
-                                    <p class="text-muted"><em>Please click on a picture for more information</em></p>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +108,7 @@ include 'header.html';
                 <div class="container-fluid clearfix">
                     <div class="row row-museum1">
                         <div class="col-md-6 col-sm-12 col-xs-12">
-                            <img src="images/culture-miniatures.jpg" class="img-responsive">
+                            <img src="images/bar-vieux-lyon2.jpg" class="img-responsive">
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12 museum-data">
                             <h2 class="heading">Bar</h2>
@@ -123,7 +122,7 @@ include 'header.html';
                             <p>Discover also the unavoidable shows of the Theatre la Maison de Guignol, which offers its very famous "Spectacles de Guignol" during the day and its "Spectacles de Café Théâtre" in the evening.</p>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
-                            <img src="images/culture-guignol.jpg" class="img-responsive">
+                            <img src="images/cafe.jpg" class="img-responsive">
                         </div>
                     </div>
                 </div>

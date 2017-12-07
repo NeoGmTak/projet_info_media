@@ -94,7 +94,6 @@ include 'header.html';
                                     <h2 class="heading">Visites de Lyon en Segway</h2>
                                     <p>L'entreprise ComhiC, concessionnaire officiel Segway, vou propose de découvrir la ville de Lyon en Segway ou vélo électrique, sur des séances de 1h à 3h.
                                         Vous serez accompagné d'un instructeur qui va vous former à la conduite d'un Segway afin de vous assurer une balade en toute sécurité.</p>
-                                    <p class="text-muted"><em>Veuillez cliquer sur une photo pour avoir plus d'informations</em></p>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +133,7 @@ include 'header.html';
                 <div class="container-fluid clearfix">
                     <div class="row row-museum1">
                         <div class="col-md-6 col-sm-12 col-xs-12">
-                            <img src="images/culture-miniatures.jpg" class="img-responsive">
+                            <img src="images/bar-vieux-lyon2.jpg" class="img-responsive">
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12 museum-data">
                             <h2 class="heading">Bar</h2>
@@ -149,7 +148,7 @@ include 'header.html';
                             <p>Découvrez aussi les spectacles incontournables du Théâtre la Maison de Guignol, qui vous propose ses très réputés "Spectacles de Guignol" en journée et ses "Spectacles de Café Théâtre" le soir.</p>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
-                            <img src="images/culture-guignol.jpg" class="img-responsive">
+                            <img src="images/cafe.jpg" class="img-responsive">
                         </div>
                     </div>
                 </div>
