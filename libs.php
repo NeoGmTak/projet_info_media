@@ -29,7 +29,8 @@ function html_header($title, $style = array(), $script = array())
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-		
+		<link rel="stylesheet" href="js/Font Awesome/css/font-awesome.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/mediaBoxes.css">
 		<!-- Styles communs -->
 		<link rel="stylesheet" type="text/css" href="./css/template.css">
 		
