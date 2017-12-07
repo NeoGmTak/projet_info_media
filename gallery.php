@@ -22,10 +22,9 @@
             <li><a href="index.php">Accueil</a></li>
             <li><a href="culture.php">Culture</a></li>
             <li><a href="#">Activités</a></li>
-              <li><a href="ouManger.php">Où Manger ?</a></li>
-              <li><a href="ouDormir.php">Où Dormir ?</a></li>
-              <li><a href="gallery.php">Galerie Photo</a></li>
-
+            <li><a href="ouManger.php">Où Manger ?</a></li>
+            <li><a href="ouDormir.php">Où Dormir ?</a></li>
+            <li><a href="gallery.php">Galerie Photo</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

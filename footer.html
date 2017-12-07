@@ -32,10 +32,48 @@
                         </button>
             </div>
             <div class="col-md-4">
-                <button class="btn_footer btn_info">
+                <button class="btn_footer btn_info" data-toggle="modal" data-target="#mailForm">
                             <img id="img_mail" src="images/images_footer/mail.png">
                         </button>
             </div>
+            
+            <div class="modal fade" id="mailForm" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Contactez-nous</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form method="post" action="mail.php">
+                                <fieldset id="field">
+                                    <legend>Me contacter</legend>
+                                    <label>Nom : *</label>
+                                    <input type="text" name="nom" required> <br/><br/>
+
+                                    <label>Prénom : *</label>
+                                    <input type="text" name="prenom" required> <br/><br/>
+
+                                    <label>Adresse mail : *</label>
+                                    <input type="text" name="email" required> <br/><br/>
+
+                                    <label>Objet : </label>
+                                    <input type="text" name="objet"> <br/><br/>
+
+                                    <label>Message : *</label>
+                                    <textarea name="msg" placeholder="Tapez votre message ici" rows="12" cols="40" required></textarea><br>
+                                </fieldset>
+
+                                <br/><input id="btValider" type="submit" value="Envoyer">
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <div class="col-md-4">
                 <button class="btn_footer btn_mlegales">
                             <img id="img_mentions" src="images/images_footer/mentions.png">
