@@ -1,0 +1,84 @@
+/* ________ Footer ________ */
+
+#footer
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #4E4E4E;
+	height: 130px;
+	width: 100%;
+	position: relative;
+}
+
+/* ________ Boutons ________ */
+
+.btn_footer
+{
+	width: 55%;
+	height: 50px;
+	margin: 2%;
+	border-radius: 30px;
+	border: none;
+}
+
+/* ________ Actions boutons ________ */
+
+.btn_footer#facebook:hover
+{
+	background-color: #295396;
+}
+
+.btn_footer#twitter:hover
+{
+	background-color: #1DA1F2;
+}
+
+.btn_footer#linkedin:hover
+{
+	background-color: #0172B1;
+}
+
+.btn_info:hover
+{
+	background-color: #E52226;
+	color: white;
+}
+
+.btn_qsn:hover, .btn_mlegales:hover{
+    background-color: black;
+}
+
+/* ________ Images ________ */
+
+#img_fb
+{
+	width: 25%;
+}
+
+#img_tw
+{
+	width: 25%;
+}
+
+#img_in
+{
+	width: 20%;
+}
+
+#img_qsn
+{
+    width: 25%;
+}
+
+#img_mail
+{
+	width: 20%;
+}
+
+#img_mentions
+{
+	width: 25%;
+}
