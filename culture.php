@@ -3,32 +3,52 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="./images/Logo.png">
     <title>Vieux Lyon - Culture</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
-    <!-- Bootstrap and Font Awesome css-->
-    <!-- we use cdn but you can also include local files located in css directory-->
+
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/font-awesome-animation.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <!-- Google fonts - Montserrat for headings, Cardo for copy-->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
-    <!-- onepage scroll stylesheet-->
+
     <link rel="stylesheet" href="css/onepage-scroll.css">
-    <!-- theme stylesheet-->
+
     <link rel="stylesheet" href="css/culture.css">
     <link rel="stylesheet" href="css/template.css">
+
     <link rel="stylesheet" href="css/style_footer.css">
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="css/custom.css">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="favicon.png">
-    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <script>
+        function selectLanguage() {
+            var nav = navigator.appName;
+            var language;
+
+            if (nav == "Microsoft Internet Explorer") {
+                language = navigator.browserLanguage;
+            }
+            else {
+                language = navigator.language;
+            }
+            switch (language) {
+                case "fr":
+                case "fr-FR":
+                case "fr-BE":
+                case "fr-CA":
+                case "fr-LU":
+                case "fr-MC":
+                case "fr-CH": break;
+                default:
+                    window.location.href = "culture_en.php";
+                    break;
+            }
+        }
+    </script>
 </head>
-<body>
+<body onload="selectLanguage()">
 <?php
 include 'header.html';
 ?>
@@ -195,10 +215,6 @@ include 'header.html';
         </section>
     </div>
 </div>
-
-<footer>
-    <?php include 'footer.html'; ?>
-</footer>
     
 <!-- Javascript files-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

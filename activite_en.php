@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="./images/Logo.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Vieux Lyon - Activité</title>
+    <title>Vieux Lyon - Activities</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -21,33 +21,8 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-    <script>
-        function selectLanguage() {
-            var nav = navigator.appName;
-            var language;
-
-            if (nav == "Microsoft Internet Explorer") {
-                language = navigator.browserLanguage;
-            }
-            else {
-                language = navigator.language;
-            }
-            switch (language) {
-                case "fr":
-                case "fr-FR":
-                case "fr-BE":
-                case "fr-CA":
-                case "fr-LU":
-                case "fr-MC":
-                case "fr-CH": break;
-                default:
-                    window.location.href = "activite_en.php";
-                    break;
-            }
-        }
-    </script>
 </head>
-<body onload="selectLanguage()">
+<body>
 <?php
 include 'header.html';
 ?>
@@ -91,10 +66,10 @@ include 'header.html';
                         <div class="col-md-6 col-sm-12 descr-monuments">
                             <div class="row page2-left-content">
                                 <div class="col-md-12 content-descr" id="culture-content1">
-                                    <h2 class="heading">Visites de Lyon en Segway</h2>
-                                    <p>L'entreprise ComhiC, concessionnaire officiel Segway, vou propose de découvrir la ville de Lyon en Segway ou vélo électrique, sur des séances de 1h à 3h.
-                                        Vous serez accompagné d'un instructeur qui va vous former à la conduite d'un Segway afin de vous assurer une balade en toute sécurité.</p>
-                                    <p class="text-muted"><em>Veuillez cliquer sur une photo pour avoir plus d'informations</em></p>
+                                    <h2 class="heading">Visits of Lyon in Segway</h2>
+                                    <p>The company ComhiC, official Segway dealer, offers you to discover the city of Lyon in Segway or electric bicycle, on sessions from 1h to 3h.
+                                        You will be accompanied by an instructor who will train you to drive a Segway to ensure a safe ride.</p>
+                                    <p class="text-muted"><em>Please click on a picture for more information</em></p>
                                 </div>
                             </div>
                         </div>
@@ -138,15 +113,14 @@ include 'header.html';
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12 museum-data">
                             <h2 class="heading">Bar</h2>
-                            <p>Découvrez les nombreux bars du Vieux Lyon. Véritables lieux de rencontre, venez apprécier une bonne bière bien fraîche entre amis.</p>
-                            <p>Vous pouvez aussi déguster un café gourmand ou un cappuccino avec des bugnes à n'importe quel moment de la journée.</p>
+                            <p>Discover the many bars of Old Lyon. Real meeting places, come and enjoy a good cold beer with friends. You can also enjoy a gourmet coffee or cappuccino with bugs at any time of the day.</p>
                         </div>
                     </div>
                     <div class="row row-museum2">
                         <div class="col-md-6 col-sm-12 col-xs-12 museum-data">
-                            <h2 class="heading">Café Théâtre</h2>
-                            <p>Venez découvrir l'ambiance des cafés théâtres du Vieux Lyon comme l'espace Gerson, dont les spectacles sont axés sur l'humour: One Man Show, Comédie ou encore plateau d'humoristes.</p>
-                            <p>Découvrez aussi les spectacles incontournables du Théâtre la Maison de Guignol, qui vous propose ses très réputés "Spectacles de Guignol" en journée et ses "Spectacles de Café Théâtre" le soir.</p>
+                            <h2 class="heading">Coffee Theatre</h2>
+                            <p>Come and discover the ambiance of the cafés théâtres du Vieux Lyon such as the Gerson space, whose shows are based on humour: One Man Show, Comedy or even a set of comedians.</p>
+                            <p>Discover also the unavoidable shows of the Theatre la Maison de Guignol, which offers its very famous "Spectacles de Guignol" during the day and its "Spectacles de Café Théâtre" in the evening.</p>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <img src="images/culture-guignol.jpg" class="img-responsive">
@@ -179,9 +153,9 @@ include 'header.html';
                     <div class="col-md-6 col-sm-12 col-xs-12 descr-traboules">
                         <div class="row page4-right-content">
                             <div class="col-md-12 col-md-12 col-xs-12 content-descr">
-                                <h2 class="heading">Activités sportives</h2>
-                                <p>Evadez-vous en pratiquant des sports à sensations comme des vols en parapentes, des baptêmes en ULM, des via ferrata, du canyoning et du rafting. En hiver, retrouvez des activités tels que la motoneige, les descentes en luge, ou encore la construction d’igloos.
-                                    Retrouvez plus d’informations sur le site de l’organisateur <a href="https://lyon.takamaka.fr" target="_blank">Takamaka</a></p>
+                                <h2 class="heading">Sports activities</h2>
+                                <p>Escape by practising thrilling sports such as paragliding flights, ULM baptisms, via ferrata, canyoning and rafting. In winter, find activities such as snowmobiling, tobogganing and igloos.
+                                    Find more information on the website of the organizer <a href="https://lyon.takamaka.fr" target="_blank">Takamaka</a></p>
                             </div>
 
                         </div>
@@ -192,6 +166,10 @@ include 'header.html';
         </section>
     </div>
 </div>
+
+<!--<footer>
+    <?php /*include 'footer.html'; */?>
+</footer>-->
     
 <!-- Javascript files-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
