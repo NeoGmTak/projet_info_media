@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Vieux Lyon - Culture</title>
+    <title>Vieux Lyon - Activité</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -17,7 +17,7 @@
     <!-- onepage scroll stylesheet-->
     <link rel="stylesheet" href="css/onepage-scroll.css">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/culture.css">
+    <link rel="stylesheet" href="css/activite.css">
     <link rel="stylesheet" href="css/template.css">
     <link rel="stylesheet" href="css/style_footer.css">
     <!-- Custom stylesheet - for your changes-->
@@ -43,20 +43,20 @@ include 'header.html';
                         <div class="row row-page1">
                             <div class="col-xs-4 vignette vignette_red">
                                 <a href="#" id="monument-link">
-                                    <img src="images/icones/church.png" alt="Sites et monuments" class="img-responsive icone-vignette">
-                                    <h3>Sites & Monuments</h3>
+                                    <img src="images/icones/map.png" alt="Sites et monuments" class="img-responsive icone-vignette">
+                                    <h3>Visites</h3>
                                 </a>
                             </div>
                             <div class="col-xs-4 vignette vignette_black">
                                 <a href="#" id="museum-link">
-                                    <img src="images/icones/museum.png" alt="Musées" class="img-responsive icone-vignette">
-                                    <h3>Musées</h3>
+                                    <img src="images/icones/beer.png" alt="Musées" class="img-responsive icone-vignette">
+                                    <h3>Sorties</h3>
                                 </a>
                             </div>
                             <div class="col-xs-4 vignette vignette_red">
                                 <a href="#" id="trip-link">
-                                    <img src="images/icones/map.png" alt="Visites guidées" class="img-responsive icone-vignette">
-                                    <h3>Visites guidées</h3>
+                                    <img src="images/icones/bike.png" alt="Visites guidées" class="img-responsive icone-vignette">
+                                    <h3>Sport</h3>
                                 </a>
                             </div>
                         </div>
@@ -72,29 +72,10 @@ include 'header.html';
                         <div class="col-md-6 col-sm-12 descr-monuments">
                             <div class="row page2-left-content">
                                 <div class="col-md-12 content-descr" id="culture-content1">
-                                    <h2 class="heading">Cathédrale Saint-Jean</h2>
-                                    <p>La Cathédrale Saint-Jean est un des éléments marquant du quartier médiéval et Renaissance du Vieux Lyon. Achevée en 1480, après trois siècles de construction.
-                                        La Cathédrale Saint-Jean a fortement été endommagée lors des guerres de religion en 1562 et par la Révolution Française en 1793.</p>
-                                    <p>Elle fût restaurée au XIXe siècle d'abord dans le classicisme puis après l'arrivée d'un nouvel architecte, dans le style gothique. La Seconde guerre mondiale vient interrompre les travaux notamment en 1944, lors du retrait des troupes allemandes, où le quartier subit des sabotages, et dont les explosions viennent briser les vitraux.
-                                        Une fois la guerre finie, les travaux reprennent et se terminent au début du XXIe siècle.</p>
-                                    <p>Elle est classée "Monument Historique" depuis 1862, puis en 1964, elle est intégrée dans le premier "Secteur Sauvegardé".</p>
-                                    <p>Enfin en Décembre 1998, elle fût reconnue comme "Patrimoine Mondial" à la vue de sa localisation dans le site historique de Lyon.</p>
+                                    <h2 class="heading">Visites de Lyon en Segway</h2>
+                                    <p>L'entreprise ComhiC, concessionnaire officiel Segway, vou propose de découvrir la ville de Lyon en Segway ou vélo électrique, sur des séances de 1h à 3h.
+                                        Vous serez accompagné d'un instructeur qui va vous former à la conduite d'un Segway afin de vous assurer une balade en toute sécurité.</p>
                                     <p class="text-muted"><em>Veuillez cliquer sur une photo pour avoir plus d'informations</em></p>
-                                </div>
-                                <div class="col-md-12 content-descr" id="culture-content2" style="display: none;">
-                                    <h2 class="heading">Église Saint-Georges</h2>
-                                    <p>L'église Saint-Georges fût construite au VIe siècle. En 1315, les chevaliers de l'ordre de Saint-Jean de Jérusalem s'installent dans le monastère de l'église. En 1492, l'église fût restaurée.</p>
-                                    <p>Mais en 1796 le clocher s'effondre. Décrétée "Bien National" elle fût vendue en 1807, mais un incendie l’a en 1854.</p>
-                                    <p>Elle a été reconstruite à partir de 1842.</p>
-                                </div>
-                                <div class="col-md-12 content-descr" id="culture-content3" style="display: none;">
-                                    <h2 class="heading">Temple du Change</h2>
-                                    <p>Construit entre 1631 et 1653, le Temple du Change est un ancien établissement boursier. Etant au début, un petit édifice classique, l'espace qu'il proposait devint insuffisant mais aucune modification n'a pu être faite avant 1748.</p>
-                                    <p>Les maisons mitoyennes furent abattues, ce qui a permis d'agrandir l'édifice, qui gagne une cinquième arcade en façade et surtout une grande salle à l'arrière qui est aussi haute et aussi large que le bâtiment.</p>
-                                    <p>Lors de la Révolution, le Temple du Change est abandonné, et devient momentanément une auberge.</p>
-                                    <p>En 1803, elle fût attribuée aux protestants et subit d'importantes modifications d'aménagement intérieur.</p>
-                                    <p>En 1913 sa façade est classée au titre des "Monuments Historiques" et le reste de l'édifice fût inscrit aux "Monuments Historiques" en 2013.</p>
-                                    <p>Enfin, en 2015, la ville de Lyon entreprend d'importants travaux de restauration sur l'ensemble du bâtiment.</p>
                                 </div>
                             </div>
                         </div>
@@ -137,18 +118,16 @@ include 'header.html';
                             <img src="images/culture-miniatures.jpg" class="img-responsive">
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12 museum-data">
-                            <h2 class="heading">Musée des miniatures</h2>
-                            <p>Le musée Miniature et Cinéma a été fondé par l'artiste miniaturiste Dan Ohlmann. C'est un musée privé hébergé dans le bâtiment historique classé de l'ancienne "Maison des Avocats".</p>
-                            <p>Ce musée abrite deux collections permanentes, l'une consacrée à l'art de la miniature et l'autre aux techniques d'effets spéciaux du cinéma, dont douze salles y sont consacrées, comprenant des matériels et pièces d'origines : masques et prothèses, animatroniques, véhicules et décors miniatures mais aussi grandeur nature.</p>
-                            <p>Le musée accueille aussi de temps en temps des expositions temporaires.</p>
+                            <h2 class="heading">Bar</h2>
+                            <p>Découvrez les nombreux bars du Vieux Lyon. Véritables lieux de rencontre, venez apprécier une bonne bière bien fraîche entre amis.</p>
+                            <p>Vous pouvez aussi déguster un café gourmand ou un cappuccino avec des bugnes à n'importe quel moment de la journée.</p>
                         </div>
                     </div>
                     <div class="row row-museum2">
                         <div class="col-md-6 col-sm-12 col-xs-12 museum-data">
-                            <h2 class="heading">Théâtre la Maison de Guignol</h2>
-                            <p>Le Théâtre la Maison de Guignol a été créé en 1965 par des passionnés de Guignol, suite à la destruction du Grand Théâtre de Guignol en 1962.</p>
-                            <p>Fondé par M. Charnoud, ce sont les Cardelli qui en ont repris la direction en 2003 afin de continuer à perpétuer les spectacles et le parler lyonnais.</p>
-                            <p>Depuis le théâtre continue de produire des spectacles adaptés à tous, des concerts, et café-théâtre.</p>
+                            <h2 class="heading">Café Théâtre</h2>
+                            <p>Venez découvrir l'ambiance des cafés théâtres du Vieux Lyon comme l'espace Gerson, dont les spectacles sont axés sur l'humour: One Man Show, Comédie ou encore plateau d'humoristes.</p>
+                            <p>Découvrez aussi les spectacles incontournables du Théâtre la Maison de Guignol, qui vous propose ses très réputés "Spectacles de Guignol" en journée et ses "Spectacles de Café Théâtre" le soir.</p>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
                             <img src="images/culture-guignol.jpg" class="img-responsive">

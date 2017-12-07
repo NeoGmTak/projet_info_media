@@ -13,8 +13,9 @@
     <!-- onepage scroll stylesheet-->
     <link rel="stylesheet" href="css/onepage-scroll.css">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/template.css" id="stylesheet">
-    <link rel="stylesheet" href="css/accueil.css" id="stylesheet">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/style_footer.css">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
 
@@ -93,7 +94,7 @@
                                     </article>
                                 </div>
                             </li>
-                            <li style="background-image: url('images/accueil.jpg');"
+                            <li style="background-image: url('images/galerie.jpg');"
                                 onclick="javascript:location.href = '#'">
                                 <div class="accordion-overlay"></div>
                                 <h3>Galerie photos</h3>
@@ -109,45 +110,45 @@
             </div>
         </section>
         <section id="page3">
-            <div class="content">
-                <div class="container clearfix">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="box"><img src="images/cathedrale_saint_jean.jpg" alt=""
-                                                          class="img-responsive"></div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="box"><img src="images/pass_st_georges.jpg" alt=""
-                                                          class="img-responsive"></div>
-                                </div>
+            <div class="container-fluid clearfix">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 photo-traboules">
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-6 vignette-photo-traboules" id="culture-traboule1">
+                                <!--<img src="images/culture-image1.jpg" alt="" class="img-responsive">-->
                             </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="box"><img src="images/rue_vieux_lyon.jpg" alt="" class="img-responsive">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="box"><img src="images/autre_rue_vieux_lyon.jpg" alt=""
-                                                          class="img-responsive"></div>
-                                </div>
+                            <div class="col-sm-6 col-xs-6 vignette-photo-traboules" id="culture-traboule2">
+                                <!--<img src="images/culture-image2.jpg" alt="" class="img-responsive">-->
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <h2 class="heading">Lorem Ipsum</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus, metus eu
-                                vestibulum blandit, sem magna sagittis sapien, vel sagittis elit elit interdum velit.
-                                Suspendisse condimentum erat in elit iaculis aliquam. Morbi eget enim eu sem bibendum
-                                condimentum vitae a nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                                Donec varius nisl posuere sapien auctor pharetra. Mauris at risus quis ipsum pretium
-                                vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                                inceptos himenaeos. Sed ullamcorper magna at ligula molestie, vitae placerat sapien
-                                congue. Fusce in arcu in est maximus viverra ut in justo. Sed sit amet sollicitudin
-                                erat. Sed varius urna in ex iaculis venenatis.</p>
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-6 vignette-photo-traboules" id="culture-traboule3">
+                                <!--<img src="images/culture-image5.jpg" alt="" class="img-responsive">-->
+                            </div>
+                            <div class="col-sm-6 col-xs-6 vignette-photo-traboules" id="culture-traboule4">
+                                <!--<img src="images/culture-image6.jpg" alt="" class="img-responsive">-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 descr-traboules">
+                        <div class="row page3-right-content">
+                            <div class="col-md-12 col-md-12 col-xs-12 content-descr">
+                                <h2 class="heading">Le Vieux Lyon</h2>
+                                <p>Le Vieux Lyon est le quartier médiéval et Renaissance de Lyon comptant environ 7000 habitants.</p>
+                                <p>Situé sur les bords de la Saône, au pied de la colline de Fourvière, c'est l'un des quartiers les plus vastes concernant la période médiévale et Renaissance, qui est encore resté intact jusqu'à nos jours.</p>
+                                <p>Le vieux Lyon se compose de trois quartiers : </p>
+                                <ul>
+                                    <li>Saint-Georges qui constituait l'extrémité sud de Lyon et communiquait avec l'extérieur par la porte Saint-Georges, aujourd'hui détruite.</li>
+                                    <li>Saint Jean, le quartier le plus connu avec l'église Saint-Jean. C'est aussi le quartier le plus touristique de par ses nombreuses curiosités architecturales et ses traboules.</li>
+                                    <li>Saint-Paul qui desservait la vallée d'Azergues grâce à sa gare construite en 1873.</li>
+                                </ul>
+                                <p>C'est dans ce quartier que l'on peut retrouver le Temple du Change ainsi que le Théâtre la Maison de Guignol. Le quartier est classé dans la liste du "Patrimoine Mondial" et sa préservation est assurée par l'association "La Renaissance du Vieux Lyon".</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
+                <!--</div>-->
             </div>
         </section>
     </div>
