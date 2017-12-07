@@ -17,8 +17,9 @@
     <!-- onepage scroll stylesheet-->
     <link rel="stylesheet" href="css/onepage-scroll.css">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/culture.css" id="theme-stylesheet">
-    <link rel="stylesheet" href="css/template.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/culture.css">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/style_footer.css">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->

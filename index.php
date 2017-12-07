@@ -13,8 +13,9 @@
     <!-- onepage scroll stylesheet-->
     <link rel="stylesheet" href="css/onepage-scroll.css">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/template.css" id="stylesheet">
-    <link rel="stylesheet" href="css/accueil.css" id="stylesheet">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/style_footer.css">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
 
